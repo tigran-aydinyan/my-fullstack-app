@@ -4,5 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI!"}
-"# trigger redeploy" 
+    return {"message": "Hello from Azure!"}
